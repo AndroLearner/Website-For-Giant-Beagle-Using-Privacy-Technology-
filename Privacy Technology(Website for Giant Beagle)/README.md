@@ -17,4 +17,4 @@ Alternatively, just run `application.py` in Python 3.
 
 Then open `http://127.0.0.1:5000/` in your browser to see links to both websites.
 
-Please refer to the Report for the Design and Implementation of the websites.
+
