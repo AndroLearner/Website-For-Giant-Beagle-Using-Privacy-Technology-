@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Volumes": [
+    {
+      "HostDirectory": "/var/app/beagle-hc-db",
+      "ContainerDirectory": "/var/app/hc-database"
+    },
+    {
+      "HostDirectory": "/var/app/beagle-export",
+      "ContainerDirectory": "/var/app/static/export"
+    }
+  ]
+}

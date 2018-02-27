@@ -1,0 +1,23 @@
+All of the useful tables in the database have been dumped into .csv files, so you can import them into your favorite database software and use them as you see fit. Further details have been given were applicable for when tables involve relations with others. Headers have been kept in the csv files to make this easy.
+
+
+all - contains the raw data for all individuals, not divided up into grocery store and insurance company... now includes city, state, and US census population-based ZIP, with associated ethnicities!
+
+grocery_store - contains all of the data for the grocery store's database
+
+insurance_company - contains the bulk data for the insurance company's database; insurance_id field associates with the records in insurance_health (column has the same name)
+
+insurance_health - related to insurance_company, connects each individual in the insurance company database with their diseases and prescriptions; diseases and prescriptions are associated by id numbers with their respective tables.
+additional details about columns in insurance_health: 
+
+insurance_health_id [PK] - unique identifier for each health record in the database, associated with some disease and prescription
+
+insurance_id - contains the id for the insurance policy associated with an individual; associates an individual with zero or more diseases and prescriptions
+
+disease_id - contains the id for a disease associated with an insurance policy; represents a health record associated with that account which claims the individual has said disease
+
+prescription_id - contains the id for a prescription associated with an insurance policy; represents a prescription that was assigned to that individual at one time in the past
+
+disease_id - contains the number and name for each disease; must be joined with the disease_id column in the insurance_health table to be useful.
+
+prescriptions - contains the number, name, and other identifiers for prescriptions; must be joined with the prescription_id field in the insurance_health table to be useful.

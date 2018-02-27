@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Giant Beagle: Healthier Choices - Auditing</title>
+  <link rel="stylesheet" href="lib/bootstrap.min.css" media="all">
+</head>
+<body>
+  <div class="container">
+    <h1>Auditing</h1>
+    <div class="page-header">
+      <h2>Enrollment and Authorization</h2>
+    </div>
+    <div class="js-loading js-loading-stats">
+      Loading Data...
+    </div>
+    <div class="js-cloak js-cloak-stats" style="opacity: 0;">
+      <div class="row">
+        <div class="col-md-4">
+          <canvas class="js-chart-1"></canvas>
+        </div>
+        <div class="col-md-4">
+          <canvas class="js-chart-2"></canvas>
+        </div>
+        <div class="col-md-4">
+          <canvas class="js-chart-3"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="page-header">
+      <h2>Complaints</h2>
+    </div>
+    <div class="js-loading js-loading-complaints">
+      Loading Data...
+    </div>
+    <div class="js-cloak js-cloak-complaints" style="opacity: 0;">
+      <div class="row">
+        <div class="col-md-6 js-complaint-list">
+          <div class="panel js-complaint-template">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                Complaint from <span class="js-name"></span>
+                <span class="pull-right js-date">2012-03-04</span>
+              </h3>
+            </div>
+            <div class="panel-body">
+              <b>Details:</b>
+              <span class="js-complaint-details"></span>
+              <br>
+              <b>Desired Outcome:</b>
+              <span class="js-desired-outcome"></span>
+              <div class="clearfix">
+                <span class="label js-complaint-type" style="margin-top: 8px; font-size: 14px; display: inline-block;"></span>
+                <a class="btn btn-default js-reply pull-right" href="#">Reply via email</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <canvas class="js-chart-complaints"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="page-header">
+      <h2>Exports</h2>
+    </div>
+    <p>
+      Exported data set contains two kinds of data: <b>Individually Identifiable Data</b>
+      and <b>De-identified Data</b>. Individually Identifiable Data is only shared
+      when the customer explicitly authorizes our usage of marketing, complaint with HIPAA.
+      For your convenience, these two are put into separate CSV files in the
+      downloaded zip file.
+    </p>
+    <p>
+      Please see the Design Document for the de-identification techniques and
+      data generation algorithm.
+    </p>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Date/Time</th>
+          <th>Purpose</th>
+          <th>Partner</th>
+          <th>Identifiable Rows</th>
+          <th>De-identified Rows</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody class="js-export-list">
+        <tr class="js-loading js-loading-exports">
+          <td colspan="6">
+            Loading Data...
+          </td>
+        </tr>
+        <tr class="js-export-template">
+          <td class="js-datetime"></td>
+          <td class="js-purpose"></td>
+          <td class="js-partner"></td>
+          <td class="js-id-count"></td>
+          <td class="js-deid-count"></td>
+          <td>
+            <a target="_blank" href="#" class="btn btn-default js-download-link">Download</a>
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr class="success">
+          <td>Export New Dataset</td>
+          <td>
+            <select class="form-control js-purpose-input">
+              <option value="marketing" selected>marketing</option>
+              <option value="auditing">auditing</option>
+              <option value="other">other</option>
+            </select>
+          </td>
+          <td>
+            <input type="text" class="form-control js-partner-input" placeholder="e.g. Acme Ads">
+          </td>
+          <td class="js-id-count-estimation">
+            (estimating...)
+          </td>
+          <td class="js-deid-count-estimation">
+            ~50000 (estimated)
+          </td>
+          <td>
+            <button class="btn btn-success js-export-action">Generate Data Set</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="lib/jquery-3.2.1.min.js"></script>
+  <script src="lib/Chart.min.js"></script>
+  <script src="audit.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+"perscription_id";"disease_treats";"chemical_name";"marketing_name";"perscription_probability"
+2;"Heart disease";"perindopril";"Aceon";0.299882013
+3;"Heart disease";"ramipril";"Altace";0.788092614
+4;"Heart disease";"catopril";"Capoten";0.471859783
+5;"Heart disease";"benazepril";"Lotensin";0.773199914
+6;"Heart disease";"trandolapril";"Mavik";0.778620577
+7;"Heart disease";"fosinopril";"Monopril";0.268900318
+8;"Heart disease";"lisinopril";"Prinivil";0.388735937
+9;"Heart disease";"lisinopril";"Zestril";0.211204529
+10;"Heart disease";"moexipril";"Univasc";0.522892503
+11;"Heart disease";"enalapril";"Vasotec";0.275856959
+12;"Heart disease";"eplerenone";"Inspra";0.453029224
+13;"Heart disease";"spironolactone";"Aldoctone";0.448210873
+14;"Heart disease";"Azilsartan";"Edarbi";0.376003559
+15;"Heart disease";"Candesartan";"Atacand";0.512238023
+16;"Heart disease";"Eprosartan";"Teveten";0.256894711
+17;"Heart disease";"Irbesartan";"Avapro";0.494541906
+18;"Heart disease";"Losartan";"Cozaar";0.169751403
+19;"Heart disease";"Olmesartan";"Benicar";0.295321325
+20;"Heart disease";"Telmisartan";"Micardis";0.653192527
+21;"Heart disease";"Valsartan";"Diovan";0.649207784
+22;"Heart disease";"Acebutolol";"Sectral";0.098619103
+23;"Heart disease";"Atenolol";"Tenormin";0.461904884
+24;"Heart disease";"Bisoprolol";"Zebeta";0.672059998
+25;"Heart disease";"Metoprolol";"Lopressor";0.083400092
+26;"Heart disease";"Nadolol";"Corgard";0.127590284
+27;"Heart disease";"Propanolol";"Inderal";0.178863053
+28;"Cancer";"Bortezomib";"Velcade";0.110227296
+29;"Cancer";"Chlorambucil";"Leukeran";0.578972769
+30;"Cancer";"Cyclophosphamide";"Cytoxan";0.223931658
+31;"Cancer";"Gemcitabine";"Gemzar";0.49708454
+32;"Cancer";"Imatinib";"Gleevec";0.351988302
+33;"Cancer";"Irinotecan";"Camptosar";0.749018778
+34;"Cancer";"Irinotecan Liposome";"Onivyde";0.638342594
+35;"Cancer";"Methotrexate";"Rheumatrex";0.720183793
+36;"Cancer";"Oxaliplatin";"Eloxatin";0.137257714
+37;"Cancer";"Trastuzumab";"Herceptin";0.732733484
+38;"COPD";"Albuterol";"Vospire";0.611661295
+39;"COPD";"Levalbuterol";"Xopenex";0.210781571
+40;"COPD";"Ipratropium";"Atrovent";0.721241692
+41;"COPD";"Fluticasone";"Flovent";0.153374249
+42;"COPD";"Budesonide";"Pulmicort";0.407089595
+43;"COPD";"Theophylline";"Theolair";0.337835867
+44;"COPD";"Tiotropium";"Spiriva";0.761046875
+45;"COPD";"Salmeterol";"Serevent";0.323954652
+46;"COPD";"Formoterol";"Floradil";0.660108708
+47;"COPD";"Arformoterol";"Brovana";0.22858345
+48;"COPD";"Indacaterol";"Arcapta";0.022216205
+49;"COPD";"Aclidinium";"Tudorza";0.227846558
+50;"Pain";"Fenoprofen";"Nalfon";0.780220308
+51;"Pain";"Flurbiprofen";"Ansaid";0.317236045
+52;"Pain";"Ketoprofen";"Oruvail";0.595109332
+53;"Pain";"Oxaprozin";"Daypro";0.644985659
+54;"Pain";"Diclofenac Sodium";"Voltaren";0.65612051
+55;"Pain";"Etodolac";"Lodine";0.609827239
+56;"Pain";"Indomethacin";"Indocin";0.030520747
+57;"Pain";"Ketorolac";"Toradol";0.745230057
+58;"Pain";"Sulindac";"Clinoril";0.603327031
+59;"Pain";"Tolmetin";"Tolectin";0.469331458
+60;"Pain";"Meclofenamate";"Meclomen";0.572037875
+61;"Pain";"Mefanamic Acid";"Ponstel";0.296604004
+62;"Pain";"Nabumetone";"Relafen";0.738722761
+63;"Pain";"Piroxicam";"Feldene";0.286806779
+64;"Pain";"Celecoxib";"Celebrex";0.61456477
+65;"Pain";"Buprenorphine";"Buprenex";0.205856305
+66;"Pain";"Butorphanol";"Stadol";0.429277425
+67;"Pain";"Hydromorphone";"Dilaudid";0.635757843
+68;"Pain";"Levorphanol";"Levo-Dromoran";0.282826793
+69;"Pain";"Meperidine";"Demerol";0.069542242
+70;"Pain";"Methadone";"Dolophine";0.308515872
+71;"Pain";"Morphine";"Duramorph";0.087486489
+72;"Pain";"Nalbuphine";"Nubain";0.693186319
+73;"Pain";"Oxycodone";"OxyContin";0.483346159
+74;"Pain";"Oxymorphone";"Numorphan";0.139453479
+75;"Pain";"Pentazocine";"Talwin";0.768068137
+76;"Pain";"Propoxyphene";"Darvon";0.357951449
+77;"Pain";"Tapentadol";"Nucynta";0.662203975
+78;"Stroke";"Warfarin";"Coumadin";0.634912421
+79;"Stroke";"Aspirin";"Bayer Aspirin";0.233238538
+80;"Stroke";"Dipyridamole";"Aggrenox";0.21659818
+81;"Stroke";"Arformoterol";"Plavix";0.123631963
+85;"Diabetes";"Acarbose";"Precose";0.048383492
+86;"Diabetes";"Albiglutide";"Tanzeum";0.742842415
+87;"Diabetes";"Alogliptin";"Nesina";0.731422699
+88;"Diabetes";"Alogliptin metformin";"Kazano";0.26195116
+89;"Diabetes";"Alogliptin pioglitazone";"Oseni";0.723485177
+90;"Diabetes";"Bromocriptine mesylate";"Cycloset";0.054315964
+91;"Diabetes";"Canaglifozin";"Invokana";0.576611478
+92;"Diabetes";"Canaglifozin metformin";"Invokamet";0.280387716
+93;"Diabetes";"Dapagliflozin";"Farxiga";0.05337106
+94;"Diabetes";"Dapagliflozin metformin";"Xigduo";0.351525255
+95;"Diabetes";"Dulaglutide";"Trulicity";0.385522064
+96;"Diabetes";"Empagliflozin";"Jardiance";0.621060641
+97;"Diabetes";"Empagliflozin linagliptin";"Glyxambi";0.330598109
+98;"Diabetes";"Empagliflozin metformin";"Synjardy";0.589805252
+99;"Diabetes";"Exenatide";"Byetta";0.507778675
+100;"Diabetes";"Glimepiride";"Amaryl";0.362060184
+101;"Diabetes";"Glyburide";"DiaBeta";0.143444822
+102;"Diabetes";"Glyburide metformin";"Glucovance";0.130842747
+103;"Diabetes";"Insulin aspart";"NovoLog";0.425244451
+104;"Diabetes";"Insulin Degludec";"Tresiba";0.321224534
+105;"Diabetes";"Insulin Glargine";"Lantus";0.610262127
+106;"Diabetes";"Insulin Isophane";"Humulin";0.168086365
+107;"Diabetes";"Insulin Lispro";"Humalog";0.189920991
+108;"Diabetes";"Linagliptin";"Tradjenta";0.571474128
+109;"Diabetes";"Liraglutide";"Victoza";0.662350087
+110;"Diabetes";"Metformin";"Glucophage";0.092030974
+111;"Diabetes";"Miglitol";"Glyset";0.179682459
+83;"Alzheimers";"Rivastigmine";"Exelon";0.471683753
+84;"Alzheimers";"Galantamine";"Razadyne";0.390720106
+1;"Heart disease";"quinapril";"Accupril";0.405272534
+112;"Diabetes";"Nateglinide";"Starlix";0.595295815
+113;"Diabetes";"Pioglitazone";"Actos";0.737639331
+114;"Diabetes";"Repaglinide";"Prandin";0.473622797
+115;"Diabetes";"Rosiglitazone";"Avandia";0.376802475
+116;"Diabetes";"Saxagliptin";"Onglyza";0.448685012
+117;"Diabetes";"Sitagliptin";"Januvia";0.680225913
+118;"Influenza";"Amantadine";"Symmeterel";0.182765468
+119;"Influenza";"Rimantadine";"Flumadine";0.273828795
+120;"Influenza";"Oseltamivir";"Tamiflu";0.130493277
+121;"Influenza";"Zanamivir";"Relenza";0.578629828
+122;"Pneumonia";"Azithromycin";"Zithromax";0.178582918
+123;"Pneumonia";"Clarithromycin";"Biaxin";0.621819749
+124;"Pneumonia";"Erythromycin";"Eryc";0.10217266
+125;"Pneumonia";"Doxycycline";"Doryx";0.534272177
+126;"Pneumonia";"Gemifloxacin";"Factive";0.507817166
+127;"Pneumonia";"Levofloxacin";"Levaquin";0.383472235
+128;"Pneumonia";"Moxifloxacin";"Avelox";0.308062392
+129;"Pneumonia";"Cefuroxime";"Ceftin";0.724659664
+130;"Pneumonia";"Cephalexin";"Keflex";0.494970723
+131;"Pneumonia";"Amoxicillin clavulanate";"Augmentin";0.078987943
+132;"Pneumonia";"Ticarcillin clavulnanate";"Timentin";0.368537907
+133;"Pneumonia";"Vancomycin";"Vancocin";0.746996052
+134;"Nephritis";"Erythropoietin";"Procrit";0.540934431
+135;"Nephritis";"Iron";"Ferrlecit";0.409157139
+136;"Nephritis";"Iron";"Venofer";0.519720631
+137;"Nephritis";"Calcium acetate";"PhosLo";0.714055585
+138;"Nephritis";"Sevelamer";"Renagel";0.399626576
+139;"Nephritis";"Sevelamer carbonate";"Renvela";0.053005459
+140;"Nephritis";"Lanthanum carbonate";"Fosrenol";0.440701525
+141;"Nephritis";"Calcitriol";"Rocaltrol";0.470579132
+142;"Nephritis";"Doxercalciferol";"Hectorol";0.503623743
+143;"Nephritis";"Paricalcitol";"Zemplar";0.052587016
+144;"Nephritis";"Cinacalcet";"Sensipar";0.165707971
+145;"Depression";"Ariprazole";"Abilify";0.783552225
+146;"Depression";"Doxepin";"Adapin";0.072080216
+147;"Depression";"Clomipramine";"Anafranil";0.703924859
+148;"Depression";"Bupropion";"Aplenzil";0.412846829
+149;"Depression";"Amoxapine";"Asendin";0.192232167
+150;"Depression";"Nortriptyline";"Aventyl";0.086109568
+151;"Depression";"Vortioxetine";"Brintellix";0.745171761
+152;"Depression";"Citalopram";"Celexa";0.217107685
+153;"Depression";"Duloxetine";"Cymbalta";0.068723661
+154;"Depression";"Trazodone";"Desyrel";0.682228368
+155;"Depression";"Venlafaxine";"Effexor";0.579256761
+156;"Depression";"Selegiline";"Emsam";0.483674228
+157;"Depression";"Perphenazine amitriptyline";"Etrafon";0.493440114
+158;"Depression";"Amitriptyline";"Elavil";0.380504446
+159;"Depression";"Levomilnacipran";"Fetzima";0.32371052
+160;"Depression";"Desvenlafaxine";"Khedezla";0.523804639
+161;"Depression";"Lurasidone";"Latuda";0.014969091
+162;"Depression";"Lamotrigine";"Lamictal";0.165020971
+163;"Depression";"Escitalopram";"Lexapro";0.260080551
+164;"Depression";"Amitriptyline chlordiazepoxide";"Limbitrol";0.477198017
+165;"Depression";"Isocarboxazid";"Marplan";0.131739415
+166;"Depression";"Phenelzine";"Nardil";0.733663725
+167;"Depression";"Desipramine";"Norpramin";0.218114111
+168;"Depression";"Trazodone";"Oleptro";0.640891128
+169;"Depression";"Nortriptyline";"Pamelor";0.150516038
+170;"Depression";"Tranylcypromine";"Parnate";0.488047882
+171;"Depression";"Paroxetine";"Paxil";0.355090611
+172;"Depression";"Fluoxetine";"Prozac";0.238765972
+173;"Depression";"Mirtazapine";"Remeron";0.379676278
+174;"Depression";"Quuetiapine";"Seroquel";0.782759752
+175;"Depression";"Nefazodone";"Serzone";0.069489873
+176;"Depression";"Doxepin";"Sinequan";0.769769723
+177;"Depression";"Trimipramine";"Surmontil";0.783136087
+178;"Depression";"Imipramine";"Tofranil";0.108324797
+179;"Depression";"Vilazodone";"Viibryd";0.105524132
+180;"Depression";"Protriptyline";"Vivactil";0.270031975
+181;"Depression";"Sertaline";"Zoloft";0.249303011
+182;"Depression";"Olanzapine";"Zyprexa";0.609932172
+82;"Alzheimers";"Donepezil";"Aricept";0.398895433

@@ -1,0 +1,98 @@
+.be-header-bar {
+  padding: 15px 0;
+  background: -webkit-linear-gradient(left, #803184 0%,#803184 100%);
+  background: linear-gradient(to right, #803184 0%,#803184 100%);
+  color: #fff;
+  font-size: 14px;
+  text-align: right;
+}
+.be-main {
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(173,140,165, 0.8);
+}
+
+.be-title {
+  text-align:center;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.be-auth-levels > input {
+  opacity: 0;
+  position: absolute;
+}
+
+.be-auth-level-label {
+  display: block;
+  background-color: #ddd;
+  padding: 10px 20px;
+  cursor: default;
+}
+
+.be-auth-level-label {
+  display: block;
+  background-color: #ddd;
+  padding: 10px 20px;
+  cursor: default;
+}
+
+.be-auth-levels .be-auth-level-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s linear;
+  padding-left: 10px;
+}
+
+.be-auth-levels > input:checked + .be-auth-level > .be-auth-level-details {
+  max-height: 600px;
+}
+
+.be-auth-levels > input:checked + .be-auth-level > .be-auth-level-label {
+  background-color: rgb(176,196,222);
+}
+
+.be-auth-levels > input:checked + .be-auth-level > .be-auth-level-label:before {
+  content: "☑";
+  color: #3c6;
+}
+
+.be-input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #ad8ca5;
+  color: #843150;
+  border-radius: 0;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+.be-select, .be-textarea {
+  background: #F0F0E9;
+  border: 0;
+  color: #696763;
+  padding: 5px;
+  width: 100%;
+  border-radius: 0;
+  resize: none;
+}
+
+.be-my-info td {
+  vertical-align: middle !important;
+}
+
+.be-my-info td + td {
+  text-align: center;
+}

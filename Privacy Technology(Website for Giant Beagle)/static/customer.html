@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Giant Beagle: Healthier Choices - Enrollment</title>
+  <link rel="stylesheet" href="lib/bootstrap.min.css" media="all">
+  <link rel="stylesheet" href="site.css" media="all">
+</head>
+<body>
+  <div class="be-header-bar">
+    <div class="container">
+      help@myGiantBeagle.com
+      Contact Giant Beagle: 412-647-(8762)
+    </div>
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Giant Beagle</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="js-route-active active"><a href="#/">Overview</a></li>
+          <li class="js-route-active"><a href="#/enroll">Enroll</a></li>
+          <li class="js-route-active"><a href="#/sharing">Sharing Settings</a></li>
+          <li class="js-route-active"><a href="#/my">My Info</a></li>
+          <li class="js-route-active"><a href="#/complaint">Complaint</a></li>
+          <li><a target="_blank" href="privacy.html">Privacy Policy</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#/enroll" class="js-greeting" style="display: none">Hi, Fred Foster</a></li>
+          <li><a href="#" class="js-sign-out" style="display: none">Sign Out</a></li>
+          <li class="js-route-active"><a href="#/login" class="js-sign-in">Sign In</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="be-main js-route js-route-home" style="display: none">
+    <h2 class="be-title">
+      Program Overview
+    </h2>
+    <img src="image-home.png" class="img-responsive" alt="Healthier Choices">
+    <br>
+    <br>
+    Healthier Choices Program is an initiative by Giant Beagle to introduce its customers to the paradise of healthier choices that await them: discounts on low-sugar and low-calorie, prepared brand food product. This involves collecting customer data from our in-store pharmacy to identify health conditions of the customers and accordingly advertise suitable and healthy food choices to them. Our advertising partners will help us get the word out to our customers.
+    <br>
+    <br>
+    <p class="text-center">
+      <a href="#/enroll" class="btn btn-primary">Enroll Now</a>
+    </p>
+  </div>
+  <div class="be-main js-route js-route-my" style="display: none">
+    <h2 class="be-title" style="border-bottom: none">
+      My Info
+    </h2>
+    <table class="table be-my-info">
+      <tr>
+        <td>
+          According to HIPAA, you can retrieve your protected health information here any time you want.
+        </td>
+        <td>
+          <a target="_blank" href="#" class="btn btn-success js-download-phi">Get My Health Info</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          You can see what information we are sharing with our partners regarding you.
+          This is only available if you choose to share contact, general or medical information.
+        </td>
+        <td>
+          <a target="_blank" href="#" class="btn btn-warning js-download-shared-id">Get Identifiable Data</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          You can also see what information we are collecting on a de-identified (anonymous) basis.
+          Such information does not include any identifiable information about you.
+        </td>
+        <td>
+          <a target="_blank" href="#" class="btn btn-info js-download-shared-deid">Get De-identified Data</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="be-main js-route js-route-login" style="display: none">
+    <h2 class="be-title js-login-prompt">Customer Login</h2>
+    <form class="js-sign-in-form">
+      First name: <input class="be-input" type="text" name="firstname" required><br>
+      Last name: <input class="be-input" type="text" name="lastname" required><br>
+      Date of birth: 
+      <div>
+        <input class="be-input" type="date" name="dob" data-format="MM/dd/yyyy" required><br>
+      </div>
+      <p class="text-center">
+        <button class="btn btn-primary js-submit">Next</button>
+      </p>
+      <p class="text-danger js-form-error js-not-found" style="display: none;">
+        Sorry, we cannot locate your customer record by your name and date of
+        birth. Please double check your input and try again. (Note: We only
+        allow existing customers which can be found in all.csv.)
+      </p>
+    </form>
+    <form class="js-verify-password-form" style="display: none">
+      Please verify your password to continue.
+      <br>
+      Password: <input class="be-input" type="password" required name="password"><br>
+      <div class="text-danger js-form-error js-incorrect-password" style="display: none;">
+        Incorrect password. Please retry.
+      </div>
+      Forgot your password? Please <a href="mailto:giant-beagle-contact@example.com">contact us</a>.
+      <br>
+      <p class="text-center">
+        <button class="btn btn-primary js-submit">Next</button>
+      </p>
+    </form>
+  </div>
+  <div class="be-main js-route js-route-sharing" style="display: none">
+    <div class="js-loading">
+      Loading your sharing settings...
+    </div>
+    <form class="js-join-form" style="display: none;">
+      <div class="js-new-user">
+        <h2 class="be-title">
+          Enrollment
+        </h2>
+        Please create a password. This allows you to change your sharing settings later.
+        <br>
+        Password: <input class="be-input" type="password" required name="password"><br>
+        Confirm password: <input class="be-input" type="password" required name="passwordConfirm"><br>
+        <div class="text-danger js-form-error js-confirm-password" style="display: none;">
+          Passwords do not match. Please try again.
+        </div>
+        <br>
+      </div>
+      <h2 class="be-title">
+        My Sharing Settings
+      </h2>
+      <div class="be-auth-levels">
+        <input id="be-auth-level-0" type="radio" checked name="authorized_fields" required value="aggregation">
+        <div class="be-auth-level">
+          <label class="be-auth-level-label" for="be-auth-level-0">
+            De-identified Information (Anonymous)
+          </label>
+          <div class="be-auth-level-details">
+            We will collect gender, age group and medical information without revealing your identity. Your name and contact information will not be used. You will not be targeted as an individual for marketing purposes but you may still receive advertisements on generic grocery deals.
+            Please refer to our <a target="_blank" href="privacy.html">Privacy Policy</a> for more details.
+            <br><b>Sample Ads you will receive: </b><br><br>
+            <img src="advertisement-0.png" class="img-responsive" alt="Sample Advertisement #0">
+          </div>
+        </div>
+        <input id="be-auth-level-1" type="radio" name="authorized_fields" required value="aggregation+firstname+lastname+address+zip">
+        <div class="be-auth-level">
+          <label class="be-auth-level-label" for="be-auth-level-1">
+            Contact Information
+          </label>
+          <div class="be-auth-level-details">
+            We will use your name and address to occasionally send personalized mails regarding general promotions and discounts targeted specifically to your living area.
+            Please refer to our <a target="_blank" href="privacy.html">Privacy Policy</a> for more details.
+            <br><b>Sample Ads you will receive: </b><br><br>
+            <img src="advertisement-1.png" style="width: 80%" class="img-responsive" alt="Sample Advertisement #1">
+          </div>
+        </div>
+        <input id="be-auth-level-2" type="radio" name="authorized_fields" required value="aggregation+firstname+lastname+address+zip+gender+age">
+        <div class="be-auth-level">
+          <label class="be-auth-level-label" for="be-auth-level-2">
+            General Information
+          </label>
+          <div class="be-auth-level-details">
+            We may occasionally inform you about healthier food based on your age group and gender, including promotions and discounts using your contact information.
+            Please refer to our <a target="_blank" href="privacy.html">Privacy Policy</a> for more details.
+            <br><b>Sample Ads you will receive: </b><br><br>
+            <img src="advertisement-2.png" class="img-responsive" alt="Sample Advertisement #2">
+          </div>
+        </div>
+        <input id="be-auth-level-3" type="radio" name="authorized_fields" required value="aggregation+firstname+lastname+address+zip+gender+age+diseases+prescriptions">
+        <div class="be-auth-level">
+          <label class="be-auth-level-label" for="be-auth-level-3">
+            Medical Information
+          </label>
+          <div class="be-auth-level-details">
+            This will include all the above information and your medical information such as ailments, prescriptions etc. and you would receive interesting deals on healthier food choices specific to your condition. For example, you may receive promotions and discounts for healthier food for people with Heart Disease.
+            <br>
+            By selecting this option, you <a target="_blank" href="consent.html">consent to authorize</a> Giant Beagle to collect and share your medical information under our <a target="_blank" href="privacy.html">Privacy Policy</a>.
+            <br><b>Sample Ads you will receive: </b><br><br>
+            <img src="advertisement-3.png" class="img-responsive" alt="Sample Advertisement #3">
+          </div>
+        </div>
+      </div>
+      <br>
+      <p>
+        <label>
+          <input type="checkbox" required>
+          By checking this box, you <a target="_blank" href="consent.html">consent to authorize</a> Giant Beagle to collect and share your medical information under our <a target="_blank" href="privacy.html">Privacy Policy</a>.
+        </label>
+      </p>
+      <p class="text-center">
+        <button class="btn btn-primary js-submit">Submit</button>
+      </p>
+    </form>
+  </div>
+  <div class="be-main js-route js-route-complaint" style="display: none">
+    <h2 class="be-title">
+      File Complaint
+    </h2>
+    <form class="js-complaint-form">
+      Email: <input class="be-input" type="email" name="email" required><br>
+      Date of the reported incident: <br>
+      <div>
+        <input class="be-input" type="date" data-format="MM/dd/yyyy" name="incident_date" required>
+      </div>
+      <br>
+      Complaint type:
+      <select class="be-select" name="complaint_type">
+        <option value="inaccurate_data">Inaccurate Data</option>
+        <option value="wrong_advertising">Wrong Advertising</option>
+        <option value="user_interface_issues">Issues with the website</option>
+        <option value="other">Other</option>
+      </select>
+      <br>
+      <br>
+      Complaint details:<br>
+      <textarea class="be-textarea" name="complaint_details" cols="30" rows="10"></textarea><br>
+      Desired outcome:<br>
+      <textarea class="be-textarea" name="desired_outcome" cols="30" rows="10"></textarea><br>
+      <div class="help-block">
+        Suggest the steps that should be taken to avoid a repeat of the problem<br>
+      </div>
+      <br>
+      <br>
+
+      <p>By clicking on the Submit Button below, you are electronically signing the form.</p>
+      <input type="hidden" name="signature" value="e-sign-3949ddd0">
+      <p class="text-center">
+        <button class="btn btn-primary js-submit">Submit</button>
+      </p>
+    </form>
+  </div>
+  <script src="lib/jquery-3.2.1.min.js"></script>
+  <script src="customer.js"></script>
+  <script src="lib/better-dom.js"></script>
+  <script src="lib/better-i18n-plugin.js"></script>
+  <script src="lib/better-time-element.js"></script>
+  <script src="lib/better-dateinput-polyfill.js"></script>
+</body>
+</html>
